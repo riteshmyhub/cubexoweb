@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcbe0390-fe1a-4824-b158-5fb7bff9291b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cubeimage/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cubeimage/widget-loader-lg-en.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cubexo_css/index2.css" beforeDir="false" afterPath="$PROJECT_DIR$/cubexo_css/index2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +114,7 @@
       <workItem from="1569259979220" duration="23914000" />
       <workItem from="1569308918083" duration="47000" />
       <workItem from="1569309011869" duration="616000" />
-      <workItem from="1569310006248" duration="109000" />
+      <workItem from="1569310006248" duration="15967000" />
     </task>
     <servers />
   </component>

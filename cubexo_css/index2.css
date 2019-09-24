@@ -1,4 +1,10 @@
-                                      /*  home page */
+#loading{
+    width: 100%;
+    height: 100%;
+    background: white url("../cubeimage/widget-loader-lg-en.gif") no-repeat center ;
+    position: fixed;
+    z-index: 9999;
+}                                      /*  home page */
 
 .ul_top_nav {
     float: right;

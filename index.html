@@ -63,9 +63,9 @@
 <!--  -->
 </head>
 
-<body>
+<body onload="page_loading();">
 <!--   preloadre       -->
-
+<div id="loading"></div>
 <!-- -->
   <!-- home-->
   <div  class="container-fluid home_bg_image" id="section1">
@@ -245,7 +245,7 @@
               <div class="on_text">
                 <center>
                   <a href="https://www.google.com" class=" btn_text under_line_disable">
-                    <h3>Website Testing</h3>
+                    <h3>Quality Analysis</h3>
                   </a>
                 </center>
               </div>
@@ -559,8 +559,8 @@
         <div class="container dark_overlay_container_for_career_page ">
           <div class="row">
             <div class="col-md-12 text-center mt-4">
-              <h1 class="career_heading">Careers.</h1>
-              <h2 class="career_tag_line mb-3" style="color: white;">We're always search for talented Developers
+              <h1 class="career_heading">Careers</h1>
+              <h2 class="career_tag_line mb-3" style="color: white;">We're always search for great talented Developers
               </h2>
               <button class="btn btn-lg btn-danger">join now</button>
             </div>
@@ -724,8 +724,8 @@
                 <h5 class="Address_text mb-2"><i class="fa fa-phone-square"></i> Phone: 0731 498 8952
                 </h5>
                 <h5 class="Address_text mb-2"><i class="fa fa-envelope-square"></i> E-mail:
-                  ryitesh94@gmail.com</h5>
-                <h5 class="Address_text mb-2"><i class="fa fa-skype"></i> skype: cubexo.sky</h5>
+                  cubexotech@gmail.com</h5>
+                <h5 class="Address_text mb-2"><i class="fa fa-skype"></i> WhatsApp: 9111620002</h5>
               </div>
             </div>
           </div>
@@ -756,13 +756,15 @@
       <div class="row">
         <div class="col-md-8 d-flex align-items-center justify-content-start" style="height: auto; border: 2px solid
       transparent; ">
-          <h5>© 2019. cubexo Technologies All right reserved.</h5>
+          <h6>© 2019.<h6 style=""><span style="font-family:
+          'Anton', sans-serif; font-size: 25px;"> Cu<span
+                      style="color: #1ABB9A;">b</span>exO </span>Technologies All right reserved. </h6></h6>
         </div>
         <div class="col-md-4 d-flex align-items-center justify-content-end" style="height: auto;padding: 0;">
           <ul class="contect_share_list">
-            <li><a href="#"><i class="fa fa-facebook-official" style="color: black;"></i></a></li>
+
             <li>
-              <a href="#"><i class="fa fa-twitter" style="color: black;"></i></a>
+              <a href="#"><i class="fa fa-linkedin" style="color: black;"></i></a>
             </li>
             <li>
               <a href="#"><i class="fa fa-github" style="color: black;"></i></a>
@@ -770,6 +772,7 @@
             <li>
               <a href="#"><i class="fa fa-whatsapp" style="color: black;"></i></a>
             </li>
+            <li><a href="#"><i class="fa fa-envelope" style="color: black;"></i></a></li>
           </ul>
         </div>
       </div>
@@ -862,7 +865,14 @@
       </div>
       <!---->
 
-
+<!--  page laoding-->
+      <script>
+        var load_object = document.getElementById('loading');
+       function page_loading(){
+         load_object.style.display = 'none';
+       }
+      </script>
+<!---->
       <!--script dropdown -->
       <script>
         var dropdown = document.getElementsByClassName("dropdown-btn");
