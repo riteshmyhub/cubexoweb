@@ -1,0 +1,224 @@
+
+  .page2_bg_image {
+    /*background-image: url(cubeimage/i-love-coding.png);*/
+    background-color: #EBEBEB;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+
+  }
+  /* header part */
+  .what_we_do_heading{
+      font-size: 60px;
+        color: black;
+          font-family: 'Roboto Slab', serif;
+      text-transform: lowercase;
+  }
+  .what_we_do_tag_line{
+    font-size: 25px;
+
+  }
+  .what_we_do_font_box{
+        border: 5px solid transparent;
+       border-image: linear-gradient(100deg,#EEEEEE,red,#EEEEEE);
+       border-image-slice: 3;
+         border-left:none;
+         border-bottom:none;
+          border-right:none;
+          font-family: 'Lora', serif;
+font-family: 'Inconsolata', monospace;
+      }
+/*  */
+  .mobile_app_dav {
+    width: 100%;
+    height: auto;
+    border: 2px solid transparent;
+
+  }
+
+  .header_bar {
+    width: 100%;
+    height: auto;
+    border: 2px solid transparent;
+
+  }
+
+  /* overlay */
+
+  /* grid overlay                  pandding reponsive device*/
+  .container_box {
+    position: relative;
+    width: 80%;
+    height: 240px;
+    display: inline-block;
+    top: 17px;
+    left: 16px;
+  }
+
+  .image_element {
+    display: inline-block;
+    width: 80%;
+    height: 240px;
+    border: 4px solid transparent;
+    
+  }
+ .image_element_one {
+    display: inline-block;
+    width: 80%;
+    height: 190px;
+    border: 4px solid transparent;
+    
+  }
+  .image_element_two {
+    display: inline-block;
+    width: 80%;
+    height: 190px;
+    border: 4px solid transparent;
+    
+  }
+   .image_element_three {
+    display: inline-block;
+    width: 80%;
+    height: 190px;
+    border: 4px solid transparent;
+   
+  }
+    .image_element_four {
+    display: inline-block;
+    width: 80%;
+    height: 190px;
+    border: 4px solid transparent;
+    
+  }
+     .image_element_five {
+    display: inline-block;
+    width: 80%;
+    height: 190px;
+    border: 4px solid transparent;
+    
+  }
+    .image_element_six {
+    display: inline-block;
+    width: 80%;
+    height: 190px;
+    border: 4px solid transparent;
+   
+  }
+
+  .overlay_grid {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: blue;
+  }
+
+  .container_box:hover .overlay_grid {
+    opacity: 1.0;
+
+  }
+
+  .on_text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .overlay_grid_left {
+    height: 80%;
+    width: 80%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid transparent;
+  }
+
+  .container_box:hover .overlay_grid_left {
+    width: 80%;
+
+  }
+
+  .btn_text {
+    color: white;
+
+  }
+
+  .btn_text :hover {
+    color: black;
+  }
+
+  .under_line_disable {
+    text-decoration: none !important;
+  }
+  /*top-bottom space page*/
+  .work_page_top_space{
+      height: 70px;
+  }
+  /* -------------------media Quary------------------- */
+  @media screen and (max-width: 991px){
+  
+  .container_box {
+    width: 100%;   
+  }
+  }
+  @media screen and (max-width: 766px){
+
+  }
+  @media screen and (max-width: 455px){
+    .what_we_do_heading{
+      font-size: 50px;   
+  }
+   .work_page_top_space{
+      height: 130px;
+  }
+  .what_we_do_tag_line{
+    font-size: 20px;
+
+  }
+  .container_box {
+    width: 80%;   
+  }
+  }
+  @media screen and (max-width: 431px){
+.what_we_do_tag_line{
+    font-size: 19px;
+  }
+  }
+  @media screen and (max-width: 413px){
+.what_we_do_tag_line{
+    font-size: 18px;
+  }
+  }
+  @media screen and (max-width: 394px){
+.what_we_do_tag_line{
+    font-size: 17px;
+  }
+  }
+  @media screen and (max-width: 376px){
+    .what_we_do_heading{
+      font-size: 40px;   
+  }
+  .what_we_do_tag_line{
+    font-size: 16px;
+  }
+  .container_box {
+    width: 90%;   
+  }
+  }
+  @media screen and (max-width: 321px){
+  
+    .what_we_do_heading{
+      font-size: 30px;   
+  }
+   .work_page_top_space{
+      height: 130px;
+  }
+  .container_box {
+    width: 100%;   
+  }
+  }
+  /* end */

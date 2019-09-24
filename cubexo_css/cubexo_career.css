@@ -1,0 +1,223 @@
+
+  .career_bg_img{
+    background-image: url(../cubeimage/homepage-hero-team.gif);
+      background-color: white;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:400px;
+    padding: 0;
+      clip-path: polygon(50% 0%, 100% 0, 100% 86%, 0 100%, 0 0);
+  }
+  .career_bg{
+    /*background-image: url(cubeimage/homepage-hero-team.gif);*/
+        
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 0;
+
+  }
+  .dark_overlay_container_for_career_page{
+    width: 100%;
+    height: 400px;
+    background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+
+  }
+    .career_heading{
+        font-size: 170px;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+    }
+    .career_tag_line{
+      font-size: 33px;
+      font-family: 'Nanum Gothic', sans-serif;
+    }
+    .career_job_grid{
+        width: 100%;
+        height: auto;
+        border: 1px solid transparent;
+    }
+    
+    /* dropdow css */
+    .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+    background-color:transparent;
+    }
+    /*  */
+    .focus_btn:focus {
+    outline:none;
+}
+.key_skills_font{
+  font-size: 23px;
+  font-family: 'Gayathri', sans-serif;
+font-family: 'Kanit', sans-serif;
+}
+    .key_skills_under{
+        width: 30%;
+        border: 2px solid transparent;
+    border-image: linear-gradient(100deg, #EEEEEE, red, #EEEEEE);
+    border-image-slice: 3;
+    font-family: 'Lobster', cursive;
+    }
+    .opportunities_cubexo_text{
+      font-size: 33px;
+    }
+    /* sliding button */
+    .slide_right_careers_btn {
+      color: black;
+      border: 3px solid black;
+      border-radius: 40px;
+      padding: 10px 48px;
+      display: inline-block;
+      font-size: 18px;
+      letter-spacing: 2px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      cursor: pointer;
+      box-shadow: inset 0 0 0 0 black;
+      -webkit-transition: ease-out 0.4s;
+      -moz-transition: ease-out 0.4s;
+      transition: ease-out 0.4s;
+    }
+    .slide_right_careers_btn:hover {
+      box-shadow: inset 400px 0 0 0 transparent;
+    }
+    .resume_apply_bg_img{
+      background-image: url(../cubeimage/jobapply.jpg);
+      background-color: transparent;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    }
+    .career_form_bg_img{
+      /* background-image: url(cubeimage/White-background-art-vector-03.jpg); */
+      background-color: #EBEBEB;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    }
+   /* form ui */
+   .form_ui{
+     border: 3px solid black;
+     background: transparent;
+     border: none;
+         height: 50px;
+         border-left: none;
+   }
+   .form-control.is-invalid, .was-validated .form-control:invalid {
+    border:3px solid black;
+    background: transparent;
+   }
+/*  */
+
+   /* resume btn css */
+   .btn_resume_submit{
+    border:2px solid black;
+     border-radius: 25px;
+      color: #000;
+      width:50%;
+   }
+   .btn_resume_submit:hover{
+    background: transparent;
+    border-color: black;
+    color: #000;
+   }
+   /*  */
+   /* ------------------------------media Quary----------- */
+   @media screen and (max-width: 991px){
+    .key_skills_font{
+  font-size: 20px;
+}
+.career_tag_line{
+      font-size: 26px;
+    }
+    .opportunities_cubexo_text{
+      font-size: 28px;
+    }
+   }
+   @media screen and (max-width: 834px){
+    .career_heading{
+        font-size: 100px;
+    }
+    .career_tag_line{
+      font-size: 25px;
+    }
+
+   }
+   @media screen and (max-width: 500px){
+    .career_heading{
+        font-size: 80px;
+    }
+    .career_tag_line{
+      font-size: 20px;
+    }
+    .opportunities_cubexo_text{
+      font-size: 25px;
+    }
+   }
+   @media screen and (max-width: 395px){
+    .career_heading{
+        font-size: 60px;
+    }
+    .career_tag_line{
+      font-size: 18px;
+    }
+    .key_skills_font{
+  font-size: 14px;
+}
+.dark_overlay_container_for_career_page{
+    height: 280px;
+  }
+  .career_bg_img{
+    height:280px;
+  }
+  .opportunities_cubexo_text{
+      font-size: 21px;
+    }
+    .slide_right_careers_btn {
+      border: 2px solid black;
+      border-radius: 40px;
+      font-size: 13px;
+      letter-spacing: 2px;
+    }
+   }
+   @media screen and (max-width: 320px){
+    .career_heading{
+        font-size: 40px;
+    }
+    .career_tag_line{
+      font-size: 11px;
+    }
+    .dark_overlay_container_for_career_page{
+    height: 250px;
+  }
+  .career_bg_img{
+    height:250px;
+  }
+  .opportunities_cubexo_text{
+      font-size: 20px;
+    }
+    .slide_right_careers_btn {
+      border: 2px solid black;
+      border-radius: 40px;
+      font-size: 10px;
+      letter-spacing: 2px;
+    }
+   }

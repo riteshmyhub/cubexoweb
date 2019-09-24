@@ -1,0 +1,186 @@
+                                       /* about us page */
+  .page5_bg_image {
+    /*background-image: url(cubeimage/City_Landscape_Background.jpg);*/
+    background-color: #EEEEEE;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+  }
+
+  .about_us_font {
+    font-size: 50px;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    
+  }
+.about_tag_line_font{
+  font-size: 25px;
+}
+  .about_us_font_box {
+    border: 5px solid transparent;
+    border-image: linear-gradient(100deg, #EEEEEE, red, #EEEEEE);
+    border-image-slice: 3;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-family: 'Lora', serif;
+font-family: 'Inconsolata', monospace;
+  }
+
+  .about_us_heading {
+    font-size: 60px;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-transform: lowercase;
+  }
+
+  .about_gif_pos {
+    align-items: center;
+  }
+
+  .about_us_gif_pos {
+    width: 100%;
+
+  }
+
+  .bg_gif_container {
+    background-image: url('../cubeimage/company-gif-4.gif');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+
+  }
+
+  .dark_overlay_container {
+    width: 100%;
+    height: 400px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .about_grid {
+    height: auto;
+    width: 100%;
+    border: 1px solid transparent;
+  }
+
+  /*  grid part 1 css  */
+  .about_info_grid {
+    width: 100%;
+    height: auto;
+    border: 1px solid transparent;
+  }
+
+  .about_para_text {
+   font-family: 'Montserrat', sans-serif;
+  }
+
+  .card_about_font {
+    font-family: 'Squada One', cursive;
+    font-family: 'Merriweather', serif;
+  }
+
+  /*  grid part 2 css   */
+  .rotation_div {
+    width: 225px;
+  }
+
+  .rotate {
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Safari prior 9.0 */
+    transform: rotate(45deg);
+  }
+
+  .grid_item_rotate {
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Safari prior 9.0 */
+    transform: rotate(-45deg);
+  }
+
+  .sub_grid_one {
+    width: 100%;
+    height: 110px;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+  }
+
+  .sub_grid_two {
+    width: 100%;
+    height: 110px;
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+  }
+
+  .sub_grid_three {
+    width: 100%;
+    height: 110px;
+    border: 2px solid black;
+    border-bottom: none;
+    border-left: none;
+  }
+
+  .sub_grid_four {
+    width: 100%;
+    height: 110px;
+    border: 2px solid black;
+    border-bottom: none;
+    border-right: none;
+  }
+  /* -----------------------media Quary--------------- */
+  @media screen and (max-width: 767px){
+    .rotation_div {
+    display: none;
+  }
+  }
+  @media screen and (max-width: 484px){
+    .about_us_heading {
+    font-size: 55px;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+  }
+  .about_tag_line_font{
+  font-size: 21px;
+}
+.about_us_font {
+    font-size: 45px;
+  }
+  }
+  @media screen and (max-width: 417px){
+    .about_us_heading {
+    font-size: 50px;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+  }
+  .about_us_font {
+    font-size: 38px;
+  }
+  .about_tag_line_font{
+  font-size: 18px;
+}
+  }
+  @media screen and (max-width: 365px){
+    .about_us_heading {
+    font-size: 45px;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+  }
+  .about_tag_line_font{
+  font-size: 15px;
+}
+.about_us_font {
+    font-size: 33px;
+  }
+  }

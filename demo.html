@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Personal Account</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|EB+Garamond|Quicksand|Russo+One&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Monofett|Notable|Plaster&display=swap" rel="stylesheet">
+  <!--    g font  -->
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+<!--    -->
+  <!-- G FONT for grid btn -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+
+  <!-- G FONT for what we do -->
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+         <!-- title -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    /*  */
+    .about_us_heading{
+      font-size: 70px;
+        color: black;
+          font-family: 'Abril Fatface', cursive;
+      text-transform: uppercase;
+  }
+  .about_us_font_box{
+        border: 5px solid transparent;
+       border-image: linear-gradient(100deg,#EEEEEE,red,#EEEEEE);
+       border-image-slice: 3;
+         border-left:none;
+         border-bottom:none;
+          border-right:none;
+          font-family: 'Lora', serif;
+font-family: 'Inconsolata', monospace;
+      }
+    /*  */
+    .bg {
+      background-color: black;
+    }
+
+    
+
+    .form-control {
+      border: 3px solid #003087;
+      border-radius: 18px;
+    }
+
+    #second,
+    #third,
+    #fourth,
+    #five,
+    #result {
+      display: none;
+
+    }
+
+
+    .aroundbg {
+      background-color: #003087;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid" style="width: 100%; border:3px solid transparent;">
+    <!-- header part -->
+
+    <div class="container-fluid d-flex align-items-center justify-content-center" >
+        <span class="heading_text ">
+          <h1 class=" about_us_heading">our process</h1>
+        </span>
+    </div>
+     <div class="container-fluid d-flex align-items-center justify-content-center" >
+        <span class="heading_text about_us_font_box">
+          <h2 class="mt-2">web design & development process</h2>
+        </span>
+    </div>
+    <hr style="width: 80%;">
+    <!--  -->
+
+    <!-- progress bar-->
+
+      <div class="progress  mb-3" style="height:40px; border: 2px solid black;">
+        <div class="progress-bar bg" role="progressbar" style="width: 20%;" id="progressbar">
+          <b class="lead" id="progresstext">Step-1</b>
+        </div>
+      </div>
+              
+      <!-- tab-1 -->
+      <div class="container-fluid" id="first" style="width: 100%; height:auto; background: black;">
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-center align-items-center" style="width: 100%; height:300px; border:3px solid red; background-color: blue;">
+            <a href="#" class="btn btn-primary" id="next-1">Next</a>
+          </div>
+          <div class="col-md-6"  style="width: 100%; height:300px; border:3px solid red;background-color: blue;"></div>
+        </div>
+         
+      </div>
+     
+      <!-- tab 2-->
+      <div class="container-fluid" id="second" style="width: 100%; 
+      height:auto; background: red;">
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-center align-items-center" style="width: 100%; height:300px; border:3px solid white; background-color: blue;">
+            <a href="#" class="btn btn-primary" id="next-2">Next</a>
+          </div>
+          <div class="col-md-6"  style="width: 100%; height:300px; border:3px solid white;background-color: blue;"></div>
+        </div>
+        <!-- next button -->
+        
+      </div>
+
+      <!-- tab-3 -->
+      <div class="container-fluid" id="third" style="width: 100%; height:auto; background: yellow;">
+        
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-center align-items-center" style="width: 100%; height:300px; border:20px solid white; background-color: blue;">
+            <a href="#" class="btn btn-primary ml-1" id="next-3">Next</a>
+          </div>
+          <div class="col-md-6"  style="width: 100%; height:300px; border:20px solid white;background-color: blue;"></div>
+        </div>
+        <!-- next button -->
+        
+      </div>
+      <!--  -->
+
+      <!-- tab-4-->
+      <div class="container-fluid" id="fourth" style="width: 100%; height:auto; background: sandybrown;">
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-center align-items-center" style="width: 100%; height:300px; border:20px solid white; background-color: blue;">
+            <a href="#" class="btn btn-primary ml-1" id="next-4">Next</a>
+          </div>
+          <div class="col-md-6"  style="width: 100%; height:300px; border:20px solid white;background-color: blue;"></div>
+        </div>
+        <!-- next button -->
+        
+      </div>
+
+      <!-- tab5  -->
+      <div class="container-fluid" id="five" style="width: 100%; height:auto; background: aquamarine;">
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-center align-items-center" style="width: 100%; height:300px; border:20px solid white; background-color: blue;">
+            <a href="#" class="btn btn-primary" id="prev-5">previous</a>
+          </div>
+          <div class="col-md-6"  style="width: 100%; height:300px; border:20px solid white;background-color: blue;"></div>
+        </div>
+        <!-- button -->
+        
+      </div>
+      <!-- margin div -->
+      <div class="container-fluid" style="width: 100%; height: 70px;"></div>
+      <!--  -->
+</body>
+
+</html>
+<script type="text/javascript">
+  $(document).ready(function () {
+
+    $("#next-1").click(function () {
+      $("#second").show();
+      $("#first").hide();
+      $("#progressbar").css("width", "40%");
+      $("#progresstext").html("step-2");
+    });
+    $("#next-2").click(function () {
+      $("#third").show();
+      $("#second").hide();
+      $("#progressbar").css("width", "60%");
+      $("#progresstext").html("step-3");
+    });
+    $("#next-3").click(function () {
+      $("#fourth").show();
+      $("#third").hide();
+      $("#progressbar").css("width", "80%");
+      $("#progresstext").html("step-4");
+    });
+    $("#next-4").click(function () {
+      $("#five").show();
+      $("#fourth").hide();
+      $("#progressbar").css("width", "100%");
+      $("#progresstext").html("step-5");
+    });
+
+    $("#prev-5").click(function () {
+      $("#five").hide();
+      $("#first").show();
+      $("#progressbar").css("width", "20%");
+      $("#progresstext").html("step-1");
+    });
+
+  });
+</script>
+<script type="text/javascript">
+  function readURL(input) {
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+
+      reader.onload = function (e) {
+        $('#blah')
+          .attr('src', e.target.result);
+      };
+
+      reader.readAsDataURL(input.files[0]);
+    }
+  }
+</script>

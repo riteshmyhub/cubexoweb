@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <!-- g font -->
+  <link href="https://fonts.googleapis.com/css?family=Anton|Squada+One&display=swap" rel="stylesheet">
+  <!--  -->
+<!--    g font  -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+<!--    -->
+<!--g font -->
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+<!--    -->
+<!--    g font-->
+    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
+<!--    -->
+<!--    g font-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Squada+One&display=swap" rel="stylesheet">
+<!--    -->
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+    .page2_bg_image {
+        /*background-image: url(cubeimage/i-love-coding.png);*/
+        background-color: #EBEBEB;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+
+    }
+
+    /* header part */
+    .what_we_do_heading {
+        font-size: 70px;
+        color: black;
+        font-family: 'Abril Fatface', cursive;
+        text-transform: uppercase;
+    }
+
+    .what_we_do_font_box {
+        border: 5px solid transparent;
+        border-image: linear-gradient(100deg, #EEEEEE, red, #EEEEEE);
+        border-image-slice: 3;
+        border-left: none;
+        border-bottom: none;
+        border-right: none;
+        font-family: 'Lora', serif;
+        font-family: 'Inconsolata', monospace;
+    }
+
+    /*  */
+    .mobile_app_dav {
+        width: 100%;
+        height: auto;
+        border: 2px solid transparent;
+
+    }
+
+    .header_bar {
+        width: 100%;
+        height: auto;
+        border: 2px solid transparent;
+
+    }
+
+    /* overlay */
+
+    /* grid overlay                  pandding reponsive device*/
+    .container_box {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        display: inline-block;
+        top: 17px;
+        left: 16px;
+    }
+
+    .image_element {
+        display: inline-block;
+        width: 80%;
+        height: 240px;
+        border: 4px solid transparent;
+
+    }
+
+    .image_element_one {
+        display: inline-block;
+        width: 80%;
+        height: 240px;
+        border: 4px solid transparent;
+
+    }
+
+    .image_element_two {
+        display: inline-block;
+        width: 80%;
+        height: 240px;
+        border: 4px solid transparent;
+
+    }
+
+    .image_element_three {
+        display: inline-block;
+        width: 80%;
+        height: 240px;
+        border: 4px solid transparent;
+
+    }
+
+    .image_element_four {
+        display: inline-block;
+        width: 80%;
+        height: 240px;
+        border: 4px solid transparent;
+
+    }
+
+    .image_element_five {
+        display: inline-block;
+        width: 80%;
+        height: 240px;
+        border: 4px solid transparent;
+
+    }
+
+    .image_element_six {
+        display: inline-block;
+        width: 80%;
+        height: 240px;
+        border: 4px solid transparent;
+
+    }
+
+    .overlay_grid {
+        position: absolute;
+        transition: all .3s ease;
+        opacity: 0;
+        background-color: blue;
+    }
+
+    .container_box:hover .overlay_grid {
+        opacity: 1.0;
+
+    }
+
+    .on_text {
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .overlay_grid_left {
+        height: 80%;
+        width: 80%;
+        top: 0;
+        left: 0;
+        border-radius: 50%;
+        border: 2px solid transparent;
+    }
+
+    .container_box:hover .overlay_grid_left {
+        width: 80%;
+
+    }
+
+    .btn_text {
+        color: white;
+    }
+
+    .btn_text :hover {
+        color: black;
+    }
+
+    .under_line_disable {
+        text-decoration: none !important;
+    }
+
+    /* ggggggggggggggggggggggggggggggggggg */
+
+    .our_servicr_bg_img {
+        /*background-image: url(cubeimage/i-love-coding.jpg);*/
+        /*  background-size: cover;*/
+        /*  background-position: center center;*/
+        /*  background-repeat: no-repeat;*/
+        background-color: #EBEBEB;
+        width: 100%;
+        height: auto;
+    }
+
+    .header_our_aria {
+        width: 100%;
+        height: auto;
+        border: 1px solid transparent;
+    }
+
+    .our_font_box {
+        border: 5px solid red;
+        border-left: none;
+        border-bottom: none;
+        border-right: none;
+        font-family: 'Lora', serif;
+        font-family: 'Inconsolata', monospace;
+    }
+
+    .font_content {
+        font-size: 70px;
+        color: black;
+        font-family: 'Abril Fatface', cursive;
+        text-transform: uppercase;
+
+    }
+
+    /* our service grid  */
+    .grid_container {
+        width: 95%;
+        height: auto;
+        border: 2px solid transparent;
+    }
+
+    .grid_box {
+        width: 100%;
+        height: auto;
+        border: 2px solid transparent;
+
+    }
+
+    /* overlay css */
+    .services_container_box {
+        position: relative;
+        width: 100%;
+        height: 240px;
+        display: inline-block;
+        background-color: #1BBC9B;
+        border: 3px solid transparent;
+    }
+
+    .image_element_sevices {
+        display: inline-block;
+        width: 100%;
+        height: 234px;
+    }
+
+    .overlay_grid_service {
+        position: absolute;
+        transition: all .3s ease;
+        opacity: 0;
+        background-color: blue;
+    }
+
+    .services_container_box:hover .overlay_grid_service {
+        opacity: 1.0;
+
+    }
+
+    .on_text_service {
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .overlay_grid_bottom_service {
+        width: 100%;
+        height: 0;
+        top: 0;
+        left: 0;
+        background-color: black;
+    }
+
+    .services_container_box:hover .overlay_grid_bottom_service {
+        height: 100%;
+    }
+
+    /*  */
+    /* card css */
+    .card-text_service {
+        text-align: start;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 21px;
+        color: black;
+    }
+
+    .card {
+        border: none;
+    }
+
+    /*  dsgddfghgfhgdfgddfgdfgsdfgsdgsd*/
+   
+  .page5_bg_image {
+    /*background-image: url(cubeimage/City_Landscape_Background.jpg);*/
+    background-color: #EEEEEE;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+  }
+
+  .about_us_font {
+    font-size: 50px;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    
+  }
+
+  .about_us_font_box {
+    border: 5px solid transparent;
+    border-image: linear-gradient(100deg, #EEEEEE, red, #EEEEEE);
+    border-image-slice: 3;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    font-family: 'Lora', serif;
+font-family: 'Inconsolata', monospace;
+  }
+
+  .about_us_heading {
+    font-size: 70px;
+    color: black;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+  }
+
+  .about_gif_pos {
+    align-items: center;
+  }
+
+  .about_us_gif_pos {
+    width: 100%;
+
+  }
+
+  .bg_gif_container {
+    background-image: url(cubeimage/company-gif-4.gif);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+
+  }
+
+  .dark_overlay_container {
+    width: 100%;
+    height: 400px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .about_grid {
+    height: auto;
+    width: 100%;
+    border: 1px solid transparent;
+  }
+
+  /*  grid part 1 css  */
+  .about_info_grid {
+    width: 100%;
+    height: auto;
+    border: 1px solid transparent;
+  }
+
+  .about_para_text {
+    font-family: 'Squada One', cursive;
+  }
+
+  .card_about_font {
+    font-family: 'Squada One', cursive;
+    font-family: 'Merriweather', serif;
+  }
+
+  /*  grid part 2 css   */
+  .rotation_div {
+    width: 225px;
+  }
+
+  .rotate {
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Safari prior 9.0 */
+    transform: rotate(45deg);
+  }
+
+  .grid_item_rotate {
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Safari prior 9.0 */
+    transform: rotate(-45deg);
+  }
+
+  .sub_grid_one {
+    width: 100%;
+    height: 110px;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+  }
+
+  .sub_grid_two {
+    width: 100%;
+    height: 110px;
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+  }
+
+  .sub_grid_three {
+    width: 100%;
+    height: 110px;
+    border: 2px solid black;
+    border-bottom: none;
+    border-left: none;
+  }
+
+  .sub_grid_four {
+    width: 100%;
+    height: 110px;
+    border: 2px solid black;
+    border-bottom: none;
+    border-right: none;
+    }
+  /* dndndjjdjdjjdjddsjd */
+
+  .career_bg_img{
+    background-image: url(cubeimage/homepage-hero-team.gif);
+      background-color: white;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 0;
+      clip-path: polygon(50% 0%, 100% 0, 100% 86%, 0 100%, 0 0);
+  }
+  .career_bg{
+    /*background-image: url(cubeimage/homepage-hero-team.gif);*/
+        
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding: 0;
+
+  }
+  .dark_overlay_container_for_career_page{
+    width: 100%;
+    height: 400px;
+    background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+
+  }
+    .career_heading{
+        font-size: 170px;
+        color: white;
+          font-family: 'Abril Fatface', cursive;
+    }
+    .career_job_grid{
+        width: 100%;
+        height: auto;
+        border: 1px solid transparent;
+    }
+    /* dropdow css */
+    .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+    background-color:transparent;
+    }
+    /*  */
+    .focus_btn:focus {
+    outline:none;
+}
+    .key_skills_under{
+        width: 30%;
+        border: 2px solid transparent;
+    border-image: linear-gradient(100deg, #EEEEEE, red, #EEEEEE);
+    border-image-slice: 3;
+    font-family: 'Lobster', cursive;
+    }
+    /* sliding button */
+    .slide_right_careers_btn {
+      color: black;
+      border: 3px solid black;
+      border-radius: 40px;
+      padding: 10px 48px;
+      display: inline-block;
+      font-size: 18px;
+      letter-spacing: 2px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      cursor: pointer;
+      box-shadow: inset 0 0 0 0 black;
+      -webkit-transition: ease-out 0.4s;
+      -moz-transition: ease-out 0.4s;
+      transition: ease-out 0.4s;
+    }
+    .slide_right_careers_btn:hover {
+      box-shadow: inset 400px 0 0 0 white;
+    }
+    .resume_apply_bg_img{
+      background-image: url(cubeimage/jobapply.jpg);
+      background-color: white;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    }
+    .career_form_bg_img{
+      /* background-image: url(cubeimage/White-background-art-vector-03.jpg); */
+      background-color: #EBEBEB;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    }
+   /* form ui */
+   .form_ui{
+     border: 3px solid black;
+     background: transparent;
+     border: none;
+         height: 50px;
+   }
+   .form-control.is-invalid, .was-validated .form-control:invalid {
+    border-color: black;
+   }
+/*  */
+
+   /* resume btn css */
+   .btn_resume_submit{
+    border:2px solid black;
+     border-radius: 25px;
+      color: #000;
+      width:50%;
+   }
+   .btn_resume_submit:hover{
+    background: transparent;
+    border-color: black;
+    color: #000;
+   }
+   /*  */
+
+</style>
+
+<body>
+
+    <div class="container-fluid page2_bg_image " id="section2">
+        <!-- header part -->
+
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+            <span class="heading_text ">
+                <h1 class="what_we_do_heading">what we do</h1>
+            </span>
+        </div>
+        <div class="container-fluid d-flex align-items-center justify-content-center">
+            <span class="heading_text what_we_do_font_box">
+                <h2 class="mt-2">innovation,ideas and creativity</h2>
+            </span>
+        </div>
+        <hr style="width: 80%;">
+        <!-- first row -->
+        <div class="container" style="border:3px solid transparent; width: 100%; height: auto;">
+            <!-- row1 -->
+            <div class="row pl-2 pr-2 pt-2 pb-1">
+
+                <!-- mobile apps & game dev -->
+                <div class="col-md-4 mobile_app_dav d-flex align-items-center  justify-content-center">
+                    <div class="container_box">
+                        <img src="cubeimage/Artboard.png" alt="" srcset="" class=" rounded-circle image_element_one">
+                        <div class="overlay_grid overlay_grid_left " style="background-color: #EF584A;">
+                            <div class="on_text">
+                                <center>
+                                    <a href="https://www.google.com" class=" btn_text under_line_disable">
+                                        <h2>Apps Development</h2>
+                                    </a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- web dev -->
+                <div class="col-md-4 mobile_app_dav d-flex align-items-center  justify-content-center ">
+                    <div class="container_box">
+                        <img src="cubeimage/webdd.jpg" alt="" srcset="" class=" rounded-circle image_element_two">
+                        <div class="overlay_grid overlay_grid_left " style="background-color: #F89947;">
+                            <div class="on_text">
+                                <center>
+                                    <a href="https://www.google.com" class=" btn_text under_line_disable">
+                                        <h2>Web Development</h2>
+                                    </a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ux/ui design-->
+                <div class="col-md-4 mobile_app_dav d-flex align-items-center  justify-content-center ">
+                    <div class="container_box">
+                        <img src="cubeimage/ux-and-ui-cover-1024x640.jpg" alt="" srcset=""
+                            class=" rounded-circle image_element_three">
+                        <div class="overlay_grid overlay_grid_left " style="background-color:#64BE67;">
+                            <div class="on_text">
+                                <center>
+                                    <a href="https://www.google.com" class=" btn_text under_line_disable">
+                                        <h2>UX/UI design</h2>
+                                    </a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- secand row  -->
+            <div class="row pl-2 pr-2 pt-1 pb-2">
+
+                <!-- web site testing -->
+                <div class="col-md-4 mobile_app_dav d-flex align-items-center  justify-content-center">
+                    <div class="container_box">
+                        <img src="cubeimage/webs.jpg" alt="" srcset="" class=" rounded-circle image_element_four">
+                        <div class="overlay_grid overlay_grid_left " style="background-color: #A455A0;">
+                            <div class="on_text">
+                                <center>
+                                    <a href="https://www.google.com" class=" btn_text under_line_disable">
+                                        <h2>Website Testing</h2>
+                                    </a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- E-Commerce Web Design -->
+                <div class="col-md-4 mobile_app_dav d-flex align-items-center  justify-content-center ">
+                    <div class="container_box">
+                        <img src="cubeimage/ecomd.jpg" alt="" srcset="" class=" rounded-circle image_element_five">
+                        <div class="overlay_grid overlay_grid_left " style="background-color: #5ABAE7;">
+                            <div class="on_text">
+                                <center>
+                                    <a href="https://www.google.com" class="btn_text under_line_disable">
+                                        <h2>E-Commerce Web Design</h2>
+                                    </a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- IOT solution -->
+                <div class="col-md-4 mobile_app_dav d-flex align-items-center  justify-content-center ">
+                    <div class="container_box">
+                        <img src="cubeimage/internet.png" alt="" srcset="" class=" rounded-circle image_element_six">
+                        <div class="overlay_grid overlay_grid_left " style="background-color: #245494;">
+                            <div class="on_text">
+                                <center>
+                                    <a href="https://www.google.com" class=" btn_text under_line_disable">
+                                        <h2>IOT Solution </h2>
+                                    </a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer part -->
+
+
+    </div>
+    <!-- page -3 -->
+    <div class="container-fluid our_servicr_bg_img" style="width: 100%; height:auto;">
+        <div class="container-fluid d-flex align-items-center justify-content-center header_our_s ">
+            <span class="heading_text mt-4 ">
+                <h1 class="mb-2 font_content">our services</h1>
+            </span>
+        </div>
+        <div class="container-fluid d-flex align-items-center justify-content-center header_our_s">
+            <span class="heading_text our_font_box">
+                <h2 class="mt-2">Look at our Services</h2>
+            </span>
+        </div>
+        <hr style="width: 80%;">
+        <!-- end header part -->
+
+        <!-- start grid -->
+        <div class="container-fluid grid_container mt-5">
+            <div class="row">
+
+                <!-- grid 1 -->
+                <div class="col-lg-3 grid_box">
+
+                    <!-- image & overlay -->
+                    <div class="services_container_box">
+                        <!-- back side -->
+                        <div class="on_text_service"><img src="cubeimage/application.png" alt="" srcset=""
+                                style="width: 90px;">
+                            <h3>Application Security</h3>
+                        </div>
+
+                        <div class="overlay_grid_service overlay_grid_bottom_service">
+                            <!-- hover image -->
+                            <img src="cubeimage/appsdev.png" alt="" srcset="" class="image_element_sevices">
+
+                        </div>
+                    </div>
+                    <!--  -->
+
+                    <!-- card section -->
+                    <div class="container-fluid card" style="width: 100%; height: auto; border: 3px solid transparent;background-color:
+                                                 #EBEBEB;">
+                        <!-- card -->
+                        <div class="card-body text-center" style="padding: 12px;">
+                            <h5 class="card-text card-text_service"><i
+                                    class="fa fa-arrow-circle-right mr-3"></i>Mobile/Web Application Security Testing.
+                            </h5>
+                            <h5 class=" card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>Database
+                                Security Scanning.</h5>
+                            <h5 class=" card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>Authentication &
+                                Authorization.</h5>
+                        </div>
+                        <!--  -->
+                    </div>
+                    <!-- card end -->
+                </div>
+                <!-- end -->
+
+                <!-- grid 2 -->
+                <div class="col-lg-3 grid_box">
+
+                    <!-- image & overlay -->
+                    <div class="services_container_box">
+                        <!-- back side -->
+                        <div class="on_text_service"><img src="cubeimage/web-programming.png" alt="" srcset=""
+                                style="width: 85px;">
+                            <h3>web
+                                Development</h3>
+                        </div>
+
+                        <div class="overlay_grid_service overlay_grid_bottom_service">
+                            <!-- hover image -->
+                            <img src="cubeimage/4234885-web-design-and-development.png" alt="" srcset=""
+                                class="image_element_sevices">
+                        </div>
+                    </div>
+                    <!--  -->
+
+                    <!-- card section -->
+                    <div class="container-fluid card"
+                        style="width: 100%; height: auto; border: 3px solid transparent;background-color: #EBEBEB;">
+                        <!-- card -->
+                        <div class="card-body text-center" style="padding: 12px;">
+                            <h5 class=" card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>UX & UI
+                                Development Teams.</h5>
+                            <h5 class=" card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>Back-End Web
+                                Development.</h5>
+                            <h5 class=" card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>interactive
+                                websites</h5>
+                            <h5 class=" card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>Application
+                                Security Teams</h5>
+                        </div>
+                        <!--  -->
+                    </div>
+                    <!-- card end -->
+                </div>
+                <!-- end -->
+
+                <!-- grid 3 -->
+                <div class="col-lg-3 grid_box">
+
+                    <!-- image & overlay -->
+                    <div class="services_container_box">
+                        <!-- back side -->
+                        <div class="on_text_service"><img src="cubeimage/puzzle.png" alt="" srcset=""
+                                style="width: 90px;">
+                            <h3>Solution</h3>
+                        </div>
+
+                        <div class="overlay_grid_service overlay_grid_bottom_service">
+                            <!-- hover image -->
+                            <img src="cubeimage/solution-png.png" alt="" srcset="" class="image_element_sevices">
+                        </div>
+                    </div>
+                    <!--  -->
+
+                    <!-- card section -->
+                    <div class="container-fluid card" style="width: 100%; height: auto; border: 3px solid transparent;background-color:
+                                                #EBEBEB;">
+                        <!-- card -->
+                        <div class="card-body text-center" style="padding: 12px;">
+                            <h5 class=" card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>Web Solution.
+                            </h5>
+                            <h5 class="card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>IT Solution &
+                                Consulting more.</h5>
+                            <h5 class=" card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>Authentication &
+                                Authorization.</h5>
+                            <h5 class=" card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>Authentication &
+                                Authorization.</h5>
+                        </div>
+                        <!--  -->
+                    </div>
+                    <!-- card end -->
+                </div>
+                <!-- end -->
+
+                <!-- grid 4 -->
+                <div class="col-lg-3 grid_box">
+
+                    <!-- image & overlay -->
+                    <div class="services_container_box">
+                        <!-- back side -->
+                        <div class="on_text_service"><img src="cubeimage/database.png" alt="" srcset=""
+                                style="width: 90px;">
+                            <h3>Hosting</h3>
+                        </div>
+
+                        <div class="overlay_grid_service overlay_grid_bottom_service">
+                            <!-- hover image -->
+                            <img src="cubeimage/blog1.png" alt="" srcset="" class="image_element_sevices">
+                        </div>
+                    </div>
+                    <!--  -->
+
+                    <!-- card section -->
+                    <div class="container-fluid card" style="width: 100%; height: auto; border: 3px solid transparent;background-color:
+                                                #EBEBEB;">
+                        <!-- card -->
+                        <div class="card-body text-center" style="padding: 12px;">
+                            <h5 class=" card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>Cloud Based Web
+                                Hosting.</h5>
+                            <h5 class=" card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>Reseller Web
+                                Hosting.</h5>
+                            <h5 class=" card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>Reseller Web
+                                Hosting.</h5>
+                            <h5 class=" card-text_service"><i class="fa fa-arrow-circle-right mr-3"></i>Reseller Web .
+                            </h5>
+                        </div>
+                        <!--  -->
+                    </div>
+                    <!-- card end -->
+                </div>
+                <!-- end -->
+
+            </div>
+        </div>
+        <hr style="width: 80%;">
+        <!-- grid end -->
+
+        <!-- margin box -->
+        <div class="container-fluid" style="width: 100%; height:60px;"></div>
+    </div>
+    <!-- --------page3-------- -->
+    <div class="container-fluid page5_bg_image" id="section5">
+
+            <div class="container-fluid d-flex align-items-center justify-content-center">
+              <span class="heading_text ">
+                <h1 class=" about_us_heading">about us</h1>
+              </span>
+            </div>
+            <div class="container-fluid d-flex align-items-center justify-content-center">
+              <span class="heading_text about_us_font_box">
+                <h2 class="mt-2">Power of Code always output Unique</h2>
+              </span>
+            </div>
+                                          <hr style="width: 80%;">
+                                          <br>
+            <div class="container bg_gif_container mt-2" style="width: 100%; padding: 0;">
+        
+              <div class="container dark_overlay_container d-flex align-items-center justify-content-center">
+        
+                <div class="row">
+                  <div class="col-md-3 about_grid"></div>
+                  <div class="col-md-8 about_grid d-flex align-items-center justify-content-center">
+                    <h2 class="about_us_font ">Explore the Excellence to digital transformation</h2>
+                  </div>
+                  <div class="col-md-1 about_grid"></div>
+                </div>
+              </div>
+            </div>
+            <!-- section 2 -->
+            <div class="container" style="width: 100%; height: auto; border: 1px solid transparent;">
+              <div class="row">
+                <div class="col-md-7 about_info_grid ">
+                  <div class="card" style="background-color:#EEEEEE; border: none;">
+                    <div class="card-body text-start">
+                      <h2 class="card-text card_about_font">About US</h2>
+                      <hr>
+                      <h5 class="about_para_text">
+                        Providing creative services through digital design is our sole purpose here at Ardent Designs. We thrive
+                        to push our creative boundaries to help your business come out on top in the digital world.
+                      </h5>
+                      <hr>
+                      <h5 class="about_para_text">
+                        We want nothing more than to see our clients succeed online, and we’ve got the talent and expertise to
+                        make it happen. We are here to work with you to capture your vision and share it with the world.
+                      </h5>
+        
+        
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5 about_info_grid d-flex align-items-center justify-content-center">
+                  <div class="container-fluid rotation_div rotate">
+                    <!-- 1 -->
+                    <div class="row">
+                      <div class="col-6 sub_grid_one d-flex align-items-center justify-content-center">
+                        <h4 class="grid_item_rotate"><img src="cubeimage/innovation.png" style="width: 60px;" alt="" srcset="">
+                        </h4>
+                      </div>
+                      <div class="col-6 sub_grid_two d-flex align-items-center justify-content-center">
+                        <h4 class="grid_item_rotate"><img src="cubeimage/encryption.png" style="width: 60px;" alt="" srcset="">
+                        </h4>
+                      </div>
+                    </div>
+                    <!--2 -->
+                    <div class="row">
+                      <div class="col-6 sub_grid_three d-flex align-items-center justify-content-center">
+                        <h4 class="grid_item_rotate"><img src="cubeimage/coding (1).png" style="width: 60px;" alt="" srcset="">
+                        </h4>
+                      </div>
+                      <div class="col-md-6 sub_grid_four d-flex align-items-center justify-content-center" "><h4
+                                     class=" grid_item_rotate"><img src="cubeimage/target.png" style="width: 60px;" alt=""
+                          srcset=""></h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- djfksdfgdfgfdklgjkdfgkldfjfkldjkfsdkfjlsfd -->
+          <div class="container-fluid" style="width: 100%; height: auto; background-color: #EBEBEB;">
+                <div class="container">
+                    <div class="container-fluid career_bg_img" style="width: 100%; height:
+                         400px; border: 3px solid transparent;">
+                             <div class="container dark_overlay_container_for_career_page ">
+                                 <div class="row">
+                                     <div class="col-md-12 text-center mt-4">
+                                         <h1 class="career_heading">Careers.</h1>
+                                         <h2 style="color: white;">We're always search for talented Developers
+               </h2>
+                                         <button class="btn btn-lg btn-danger">join now</button>
+                                     </div>
+                                 </div>
+                         </div>
+              
+                             </div>
+              <!--careers section2 -->
+                    <div class="container-fluid" style="width: 100%; height:
+                         auto; border: 3px solid transparent;">
+                        <div class="row">
+                          <!-- grid 2 -->
+                            <div class="col-md-6 career_job_grid" style="padding: 0;">
+                                <div class="card " style="background-color:transparent; border: none;">
+              
+                    <h2 class="card-text mt-2 ml-4 ">key skills</h2>
+              
+                  <div class="key_skills_under mb-3 ml-4"></div>
+                                  
+                    <div class="card-body ">
+              <!--dropdown 1 -->
+                                           <!-- font fix media Q -->
+                    <button class="dropdown-btn btn-lg  mb-4 focus_btn"><h4><i class="fa fa-plus-square pr-3"></i>UI-web designing</h4>
+                </button>
+                <span class="dropdown-container" style="display: none;">
+              
+                  <a  href="#"><img class="mr-3" src="cubeimage/html5.png" alt="" style="width: 30px;"></a>
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/css3.png" alt="" style="width: 30px;"></a>
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/js.jpg" alt="" style="width: 30px;"></a>
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/Boostrap_logo.svg" alt="" style="width: 30px;"></a>
+              
+                    <a href="#"><img class="mr-3" src="cubeimage/jquery.png" alt="" style="width: 30px;"></a>
+              
+                    <a href="#"><img class="mr-3" src="cubeimage/angular.png" alt="" style="width: 30px;"></a>
+              
+                    <a href="#"><img class="mr-3" src="cubeimage/React.png" alt="" style="width: 30px;"></a>
+              
+                    <a href="#"><img class="mr-3" src="cubeimage/word.png" alt="" style="width: 30px;"></a>
+              
+                    <a href="#"><img class="mr-3" src="cubeimage/github-icon-png-27.jpg" alt="" style="width: 30px;"></a>
+                </span>
+                        <hr>
+                <!--dropdown 2 -->
+              
+                <button class="dropdown-btn btn-lg focus_btn mb-4"><h4><i class="fa fa-plus-square pr-3"></i>UX-app/web designing</h4>
+                </button>
+                <span class="dropdown-container"style="display: none;">
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/Adobe photoshop.png" alt="" style="width: 40px;"></a>
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/illustrator-icon-png-1.jpg" alt="" style="width: 35px;"></a>
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/corel-draw.png" alt="" style="width: 30px;"></a>
+                  
+                  <a href="#"><img class="mr-3" src="cubeimage/UXPin_logo_reverse-LightBlue.png" alt="" style="width: 30px;"></a>
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/github-icon-png-27.jpg" alt="" style="width: 30px;"></a>
+                 
+                </span>
+              
+              <!-- dropdown 3-->
+                        <hr>
+                        <button class="dropdown-btn btn-lg focus_btn mb-4"><h4><i class="fa fa-plus-square pr-3"></i>Apps/web development</h4>
+                        </button>
+                <span class="dropdown-container" style="display: none;">
+              
+                    <a  href="#"><img class="mr-3" src="cubeimage/python.png" alt="" style="width: 30px;" ></a>
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/Javap.png" alt="" style="width: 30px;"></a>
+              
+                  <a href="#"><img class="mr-3"  src="cubeimage/swift-seeklogo-512.png" alt="" style="width: 30px;"></a>
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/rubys.jpg" alt="" style="width: 30px;"></a>
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/php.png" alt="" style="width: 30px;"></a>
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/sqlqq.png" alt="" style="width: 30px;"></a>
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/nodejs.png" alt="" style="width: 30px;"></a>
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/ralesE.png" alt="" style="width: 30px;"></a>
+              
+                  <a href="#"><img class="mr-3" src="cubeimage/github-icon-png-27.jpg" alt="" style="width: 30px;"></a>
+              
+                </span>
+                        <hr>
+                  </div>
+                </div>
+                            </div>
+              
+                      <!-- grid 2 -->
+                            <div class="col-md-6 career_job_grid">
+                               <div class="card " style="background-color:transparent; border: none;">
+                  <span class="card-body text-center">
+                    <h2 class="card-text">Career opportunities at Cubexo</h2>
+                    <center>
+                        <div class="key_skills_under mb-1 ml-4 "></div>
+                   </center>
+                  </span>
+                                   
+                     <div class="container-fluid d-flex align-items-center justify-content-center resume_apply_bg_img" style="height: 360px; border: 3px solid transparent;">
+              
+                                   <!--   APPLY NOW BTN-->
+                  <div class="button_slide slide_right_careers_btn " data-toggle="modal" data-target="#myModal">Apply now</div>
+                  </div>
+                  <div class="container-fluid" style="height: 30px;"></div>
+                </div>
+                            </div>
+                        </div>
+                         </div>
+                  </div>
+                </div>
+              <!--resume Apply model section-->
+              <div class="container ">
+              
+                <!---------------start- The Modal for resume fome-------------------->
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog modal-md  ">
+                    <div class="modal-content career_form_bg_img">
+              
+                      <!-- close button -->
+                        <div class="modal-header " style="height: auto;">
+              
+                        <button style="color: red;" type="button" class="close" data-dismiss="modal">&times;</button>
+                      </div>
+              
+                         <!-- model logo -->
+                        <center>
+                      <div class="container-fluid mt-1">
+                          <img src="cubeimage/flinal_logo_lastone.png" class="img-fluid" alt="" srcset=""
+                             style="width:250px;">
+                      </div>
+                            </center>
+              
+                      <!-- Modal body -->
+                      <div class="modal-body ">
+                        <form action="/action_page.php" class="was-validated">
+                  <div class="form-group">
+              
+                    <!-- name -->
+                    <label for="uname"><h5>Name:</h5></label>
+                    <input type="text" class="form-control form_ui" id="uname" placeholder="Enter username" name="uname" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback"><!--Please fill out this field--></div>
+                  </div>
+              
+                  <!-- lastname -->
+                  <div class="form-group">
+                    <label for="uname"><h5>Lastname:</h5></label>
+                    <input type="text" class="form-control form_ui" id="uname" placeholder="Enter Lastname" name="uname" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback"><!--Please fill out this field--></div>
+                  </div>
+              
+                  <!-- Email id-->
+                  <div class="form-group">
+                    <label for="uname"><h5>Email id:</h5></label>
+                    <input type="text" class="form-control form_ui" id="uname" placeholder="Enter Lastname" name="uname" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback"><!--Please fill out this field--></div>
+                  </div>
+                             <!-- upload resume-->
+                            <div class="container">
+                  <p>Upload your resume</p>
+                  <input type="file" id="myFile" name="filename2">
+              
+                              <!-- submit button -->
+                  <div class="mt-3">
+                      <center>
+                    <button type="submit" class="btn btn-outline-primary btn-lg btn_resume_submit">Submit</button>
+                      </center>
+                  </div>
+              
+              
+              
+                      <!-- Modal footer -->
+                      <div class="modal-footer">
+              
+                      </div>
+              
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+</body>
+<script>
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+    
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+        } else {
+          dropdownContent.style.display = "block";
+        }
+      });
+    }
+    </script>
+</html>

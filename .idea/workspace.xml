@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bcbe0390-fe1a-4824-b158-5fb7bff9291b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/about_us_page.html" />
+      <file url="file://$PROJECT_DIR$/index.html" />
+      <file url="file://$PROJECT_DIR$/what_we_do.html" />
+    </disable_hints>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Qv6Xu6WN27VDV0XKnzmAZhKt44" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cubexo_css/index2.css" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="our_sevvices.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project cubexo/our_sevvices.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.our_sevvices.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcbe0390-fe1a-4824-b158-5fb7bff9291b" name="Default Changelist" comment="" />
+      <created>1568638765958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568638765958</updated>
+      <workItem from="1568638777826" duration="849000" />
+      <workItem from="1568639714748" duration="1010000" />
+      <workItem from="1568657757928" duration="393000" />
+      <workItem from="1568658358601" duration="3133000" />
+      <workItem from="1568662067423" duration="881000" />
+      <workItem from="1568662978138" duration="682000" />
+      <workItem from="1568663713806" duration="9693000" />
+      <workItem from="1568705910971" duration="50000" />
+      <workItem from="1568706012532" duration="16300000" />
+      <workItem from="1568738523494" duration="106000" />
+      <workItem from="1568738732565" duration="9000" />
+      <workItem from="1568738801312" duration="7000" />
+      <workItem from="1568738985617" duration="4000" />
+      <workItem from="1568739071547" duration="19479000" />
+      <workItem from="1568790840301" duration="92000" />
+      <workItem from="1568790972917" duration="19000" />
+      <workItem from="1568791094250" duration="13697000" />
+      <workItem from="1568827910514" duration="35000" />
+      <workItem from="1568828022247" duration="16273000" />
+      <workItem from="1568877218377" duration="8000" />
+      <workItem from="1568877304225" duration="17334000" />
+      <workItem from="1568913786600" duration="6000" />
+      <workItem from="1568920328123" duration="584000" />
+      <workItem from="1568921578978" duration="141000" />
+      <workItem from="1568932812752" duration="95000" />
+      <workItem from="1569010553012" duration="96000" />
+      <workItem from="1569052926306" duration="4000" />
+      <workItem from="1569055527172" duration="31000" />
+      <workItem from="1569087904767" duration="17000" />
+      <workItem from="1569087969167" duration="120000" />
+      <workItem from="1569088149925" duration="21888000" />
+      <workItem from="1569131151360" duration="114000" />
+      <workItem from="1569131314023" duration="7000" />
+      <workItem from="1569131360481" duration="36795000" />
+      <workItem from="1569193167168" duration="822000" />
+      <workItem from="1569194839139" duration="4284000" />
+      <workItem from="1569223348393" duration="41000" />
+      <workItem from="1569223424523" duration="20932000" />
+      <workItem from="1569259920177" duration="13000" />
+      <workItem from="1569259979220" duration="23914000" />
+      <workItem from="1569308918083" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

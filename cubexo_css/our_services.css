@@ -1,0 +1,129 @@
+                                               /* our_service */
+                                               
+  .our_servicr_bg_img{
+    /*background-image: url(cubeimage/i-love-coding.jpg);*/
+    /*  background-size: cover;*/
+    /*  background-position: center center;*/
+    /*  background-repeat: no-repeat;*/
+      background-color: #EBEBEB;
+      width: 100%;
+      height: auto;
+  }
+      .header_our_aria{
+        width: 100%; 
+        height: auto; 
+        border: 1px solid transparent;
+      }
+      .our_font_box{
+        border: 5px solid transparent;
+       border-image: linear-gradient(100deg,#EEEEEE,red,#EEEEEE);
+       border-image-slice: 3;
+         border-left:none;
+         border-bottom:none;
+          border-right:none;
+          font-family: 'Lora', serif;
+font-family: 'Inconsolata', monospace;
+      }
+      .services_tag_font {
+        font-size: 25px;
+      }
+      .font_content{
+        font-size: 60px;
+        color: black;
+          font-family: 'Abril Fatface', cursive;
+    font-family: 'Roboto Slab', serif;
+
+      }
+      /* our service grid  */
+      .grid_container{
+        width: 95%; 
+        height: auto; 
+        border: 2px solid transparent;
+      }
+      .grid_box{
+        width: 100%; 
+        height: auto; 
+        border: 2px solid transparent;
+
+      }
+      /* overlay css */
+      .services_container_box{
+         position: relative;
+         width: 100%;
+         height: 200px;
+         display: inline-block;
+         background-color: #1BBC9B;
+         border: 3px solid transparent;
+       }
+       .image_element_sevices{
+         display: inline-block;
+         width: 100%;
+         height: 195px;
+       }
+       .overlay_grid_service{
+         position: absolute;
+         transition: all .3s ease;
+         opacity: 0;
+         background-color: blue;
+       }
+       .services_container_box:hover .overlay_grid_service{
+         opacity: 1.0;
+
+       }
+       .on_text_service{
+         color: white;
+         font-family:'Times New Roman', Times, serif;
+         position: absolute;
+         top:50%;
+         left:50%;
+         transform:translate(-50%,-50%);
+        text-align: center;
+       }
+       .overlay_grid_bottom_service{
+         width: 100%;
+         height: 0;
+        top: 0;
+         left:0;
+         background-color: black;
+       }
+       .services_container_box:hover .overlay_grid_bottom_service{
+         height: 100%;
+       }
+      /*  */
+      /* card css */
+      .card-text_service{
+           text-align: start;
+           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           font-size: 20px;
+           color: black;
+       }
+       .card {
+           border: none;
+       }
+       /* -----------------------media Quary--------------- */
+  @media screen and (max-width: 520px){
+    .font_content{
+        font-size: 50px;
+      }
+      .services_tag_font {
+        font-size: 23px;
+      }
+  }
+  @media screen and (max-width: 416px){
+    .font_content{
+        font-size: 42px;
+      }
+      .services_tag_font {
+        font-size: 20px;
+      }
+  }
+  @media screen and (max-width: 357px){
+    .font_content{
+        font-size: 34px;
+      }
+      .services_tag_font {
+        font-size: 17px;
+      }
+  }
+  
+      /*  */
